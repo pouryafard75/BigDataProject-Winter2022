@@ -63,7 +63,7 @@ In other words, we have the following sparse matrix:
 | 4                    |  1  |  2  | NaN | ... |
 | ...                  | ... | ... | ... | ... |
 
-and we aim to predict the NaN values in order to build the recommendation system.
+and we aim to predict the <i>NaN</i> values in order to build the recommendation system.
 
 ### Methods: 
 User-user or item-item <br>
@@ -80,7 +80,7 @@ Recmetrics library for MAP@K
 
 ### Approach:
 We employ a Collaborative Filtering system to build a model of user’s behavior and use it to predict user’s interests. 
-Employed techniques:
+Employed techniques: <br>
 Collaborative Filtering Using k-Nearest Neighbors (**KNN**) <br>
 Cosine similarity(for object similarity) <br>
 Alternating Least Square (**ALS**) <br>
