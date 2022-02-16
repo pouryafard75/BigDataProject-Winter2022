@@ -2,10 +2,15 @@
 
 Project Name : Amazon Item Recommendation System
 
-Team:  Pouria Alikhanifard(40220990)
-	Mohammod Suhel Firdus(40163582)
-Gwladys Djuikom (40239239)
-Dmytro Chychkov (40034351)
+Colons can be used to align columns.
+
+| Name                  | StudentID |  
+|-----------------------|:---------:|
+| Pouria Alikhanifard   | 40220990  | 
+| Mohammod Suhel Firdus | 40163582  |  
+| Gwladys Djuikom       | 40239239  |
+| Dmytro Chychkov       | 40034351  | 
+
 
 Abstract: The Amazon Item Recommendation System collects preferences and taste information from Amazon shoppers and employs different collaborative filtering algorithms 
 to find users with similar interests. It then uses this information to make automatic item predictions tailored to the user's taste.
