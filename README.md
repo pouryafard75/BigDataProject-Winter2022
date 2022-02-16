@@ -68,9 +68,9 @@ Prototype using a subsample of data - start with Cellphone & Accessories before 
 
 
 ### Employed algorithms (include but are not limited to): <br>
-Collaborative Filtering Using k-Nearest Neighbors (**KNN**) (supervised)<br>
+Collaborative Filtering Using k-Nearest Neighbors (**KNN**)<br>
 Alternating Least Square (**ALS**) <br>
-Matrix Factorization (unsupervised) <br>
+Matrix Factorization<br>
 
 ### Evaluation: 
 To measure the performance of our recommendation methods we plan to use <b>Root-mean-square-error (RMSE)</b> and <b>Mean Average Precision at K (MAP@K)</b> techniques applied to a masked portion of the matrix.
