@@ -21,19 +21,18 @@ Amazon Review Data (2018) which is available [here](https://nijianmo.github.io/a
 The dataset contains over 230 million reviews across all item categories 
 It consists of two subsets for each product category: <br> 
 
-(1) Product reviews: <br>
+**(1)** Product reviews: <br>
 
 reviewerID - ID of the reviewer, e.g. A2SUAM1J3GNN3B <br>
 asin - ID of the product, e.g. 0000013714 <br>
 reviewerName - name of the reviewer <br>
 vote - helpful votes of the review (1 to 5) <br>
-style - a dictionary of the product metadata, e.g., "Format" is "Hardcover" <br>
 reviewText - text of the review <br> 
 overall - rating of the product <br>
 unixReviewTime - time of the review (unix time) <br>
 reviewTime - time of the review (raw) <br>
 
-(2) Product metadata:
+**(2)** Product metadata:
 
 asin( ID of the product e.g. 0000031852), <br>
 title,<br>
@@ -86,7 +85,14 @@ To measure the performance of our recommendation methods we plan to use <b>Root-
 
 ### Research questions: 
 
+1) Can we build a recommandation system with collbarotive filtering based purely on the amazon reviews?<br>
 
- 
+2) Between ALS and KNN which will produce more accurate results?<br>
 
+3) Which value for K works better in terms of prediction?<br>
 
+4) Which hyper-params(maxIter,rank,regParam) for ALS algorithms works better on this dataset?<br>
+
+5) Whether we can identify user's changing interests as their shopping profile changes over time?<br>
+
+6) Whether the user similarity table will change if we restrict the dataset timeline?
