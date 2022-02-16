@@ -1,8 +1,6 @@
 # BigDataProject-Winter2022
 
-Project Name : Amazon Item Recommendation System
-
-Colons can be used to align columns.
+## Project Name: Amazon Item Recommendation System
 
 | Name                  | StudentID |  
 |-----------------------|:---------:|
@@ -12,14 +10,14 @@ Colons can be used to align columns.
 | Dmytro Chychkov       | 40034351  | 
 
 
-Abstract: The Amazon Item Recommendation System collects preferences and taste information from Amazon shoppers and employs different collaborative filtering algorithms 
+### Abstract:
+The Amazon Item Recommendation System collects preferences and taste information from Amazon shoppers and employs different collaborative filtering algorithms 
 to find users with similar interests. It then uses this information to make automatic item predictions tailored to the user's taste.
 
-Dataset of interest: Amazon Review Data (2018)
+###Dataset of interest: 
+Amazon Review Data (2018) available [here](https://nijianmo.github.io/amazon/index.html).
 
-Dataset URL:  https://nijianmo.github.io/amazon/index.html
-
-Dataset description:
+###Dataset description:
 The dataset contains over 230 million reviews across all item categories 
 It consists of two subsets for each product category: 
 (1) Product reviews - includes ratings, text and helpfulness votes
@@ -54,7 +52,7 @@ Model: We chose Collaborative Filtering as it works for any kind of item and rel
 Methods: User-user or item-item //item-item is more straightforward while user-user can help us create a user profile across multiple categories
 Frameworks and Libraries to use:
 Spark
-recmetics for MAP@K
+recmetrics library for MAP@K
 matplotlib for graphics
 pandas/numpy as well (visualization)
 PyTorch - to create a suitable Convolutional Neural Network (CNN) architecture using to train the CNN architecture with datasets. //image recognition
@@ -72,4 +70,4 @@ Prototype using subsample of data - start with Cellphone & Accessories before in
 Evaluation: //precision
 Mean Average Precision at K (MAP@K) //standard
 Masking Matrix
-Root-mean-square-error (RMSE) //e
+Root-mean-square-error (RMSE) //
