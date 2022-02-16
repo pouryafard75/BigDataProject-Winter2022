@@ -19,17 +19,18 @@ Amazon Review Data (2018) available [here](https://nijianmo.github.io/amazon/ind
 
 ### Dataset description:
 The dataset contains over 230 million reviews across all item categories 
-It consists of two subsets for each product category: 
-(1) Product reviews - includes ratings, text and helpfulness votes
-reviewerID - ID of the reviewer, e.g. A2SUAM1J3GNN3B
-asin - ID of the product, e.g. 0000013714
-reviewerName - name of the reviewer
-vote - helpful votes of the review (1 to 5)
-style - a dictionary of the product metadata, e.g., "Format" is "Hardcover"
-reviewText - text of the review
-overall - rating of the product
-unixReviewTime - time of the review (unix time)
-reviewTime - time of the review (raw)
+It consists of two subsets for each product category: <br> 
+
+(1) Product reviews(includes ratings, text and helpfulness votes) <br>
+reviewerID - ID of the reviewer, e.g. A2SUAM1J3GNN3B <br>
+asin - ID of the product, e.g. 0000013714 <br>
+reviewerName - name of the reviewer <br>
+vote - helpful votes of the review (1 to 5) <br>
+style - a dictionary of the product metadata, e.g., "Format" is "Hardcover" <br>
+reviewText - text of the review <br> 
+overall - rating of the product <br>
+unixReviewTime - time of the review (unix time) <br>
+reviewTime - time of the review (raw) <br>
 
 (2) Product metadata - includes ASIN, descriptions, category information, price,					 brand, and image features
 
@@ -49,15 +50,18 @@ tech2 - the second technical detail table of the product
 similar - similar product table
 Model: We chose Collaborative Filtering as it works for any kind of item and relies only on 	the utility matrix. 
 
-Methods: User-user or item-item //item-item is more straightforward while user-user can help us create a user profile across multiple categories
-Frameworks and Libraries to use:
-Spark
-recmetrics library for MAP@K
-matplotlib for graphics
-pandas/numpy as well (visualization)
-PyTorch - to create a suitable Convolutional Neural Network (CNN) architecture using to train the CNN architecture with datasets. //image recognition
+### Methods: User-user or item-item //item-item is more straightforward while user-user can help us create a user profile across multiple categories
 
-Approach:
+Frameworks and Libraries to use:
+
+[Spark](https://spark.apache.org/docs/latest/api/python/)
+Recmetrics library for MAP@K
+
+[Matplotlib](https://matplotlib.org/) (for visualisation)
+
+[Pandas](https://pandas.pydata.org)/[Numpy](https://numpy.org/) (as well visualization)
+
+### Approach:
 We employ a Collaborative Filtering system to build a model of user’s behavior and use it to predict user’s interests. Employed techniques:
 Clustering
 Collaborative Filtering Using k-Nearest Neighbors (KNN)
