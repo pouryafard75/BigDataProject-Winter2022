@@ -50,6 +50,7 @@ tech2 - the second technical detail table of the product
 similar - similar product table
 Model: We chose Collaborative Filtering as it works for any kind of item and relies only on 	the utility matrix. 
 
+<b> However the main focus of this research is on the <i> vote </i> in Product reviews.
 ### Methods: 
 User-user or item-item <br>
 Item-item is more straightforward while user-user can help us create a user profile across multiple categories
@@ -64,12 +65,13 @@ Recmetrics library for MAP@K
 [Pandas](https://pandas.pydata.org)/[Numpy](https://numpy.org/) (as well visualization)
 
 ### Approach:
-We employ a Collaborative Filtering system to build a model of user’s behavior and use it to predict user’s interests. Employed techniques:
-Clustering
-Collaborative Filtering Using k-Nearest Neighbors (KNN)
+We employ a Collaborative Filtering system to build a model of user’s behavior and use it to predict user’s interests. 
+Employed techniques:
+Collaborative Filtering Using k-Nearest Neighbors (**KNN**)
 Cosine similarity(for object similarity)
-Alternating Least Square (ALS)
+Alternating Least Square (**ALS**)
 Matrix Factorization (unsupervised)
+Clustering
 
 Prototype using subsample of data - start with Cellphone & Accessories before increasing the scope
 
