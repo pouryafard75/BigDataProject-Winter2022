@@ -89,7 +89,9 @@ Clustering
 
 Prototype using subsample of data - start with Cellphone & Accessories before increasing the scope
 
-Evaluation: //precision
+Evaluation: 
+Precision of the predictions:
+
+Root-mean-square-error (RMSE) 
 Mean Average Precision at K (MAP@K) //standard
 Masking Matrix
-Root-mean-square-error (RMSE) //
