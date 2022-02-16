@@ -88,5 +88,5 @@ Prototype using subsample of data - start with Cellphone & Accessories before in
 ### Evaluation: 
 Precision of the predictions for the Masking Matrix
 
-Root-mean-square-error (RMSE)
+Root-mean-square-error (RMSE) <br>
 Mean Average Precision at K (MAP@K)
