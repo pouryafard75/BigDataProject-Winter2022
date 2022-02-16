@@ -50,7 +50,7 @@ tech2 - the second technical detail table of the product
 similar - similar product table
 Model: We chose Collaborative Filtering as it works for any kind of item and relies only on 	the utility matrix. 
 
-<b> However the main focus of this research is on the <i> vote </i> in Product reviews.
+<b> However the main focus of this research is on the <i> vote </i> in Product reviews. </b>
 ### Methods: 
 User-user or item-item <br>
 Item-item is more straightforward while user-user can help us create a user profile across multiple categories
