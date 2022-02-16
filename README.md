@@ -67,6 +67,7 @@ Matrix Factorization (unsupervised) <br>
 | 3                    |  NaN  |  2  |  5  | ... |
 | 4                    |  1  |  2  | NaN | ... |
 | ...                  | ... | ... | ... | ... |
+
 <b> We aim to predict the NaN values which coressponds to missing reviews and build our recommendation system based on that. </b>
 
 ### Evaluation: 
