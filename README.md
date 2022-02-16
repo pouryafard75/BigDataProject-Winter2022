@@ -23,10 +23,10 @@ It consists of two subsets for each product category: <br>
 
 **(1)** Product reviews: <br>
 
-reviewerID - ID of the reviewer, e.g. A2SUAM1J3GNN3B <br>
-asin - ID of the product, e.g. 0000013714 <br>
-reviewerName - name of the reviewer <br>
-vote - helpful votes of the review (1 to 5) <br>
+reviewerID - ID of the reviewer <br>
+asin - ID of the product<br>
+reviewerName<br>
+vote - vote of the review (1 to 5) <br>
 reviewText - text of the review <br> 
 overall - rating of the product <br>
 unixReviewTime - time of the review (unix time) <br>
@@ -34,7 +34,7 @@ reviewTime - time of the review (raw) <br>
 
 **(2)** Product metadata:
 
-asin( ID of the product e.g. 0000031852), <br>
+asin,<br>
 title,<br>
 feature,<br>
 description,<br>
