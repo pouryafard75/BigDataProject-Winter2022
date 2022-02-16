@@ -85,7 +85,7 @@ Clustering
 
 Prototype using subsample of data - start with Cellphone & Accessories before increasing the scope
 
-Evaluation: 
+### Evaluation: 
 Precision of the predictions:
 
 Root-mean-square-error (RMSE)
