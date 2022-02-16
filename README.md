@@ -81,10 +81,10 @@ Recmetrics library for MAP@K
 ### Approach:
 We employ a Collaborative Filtering system to build a model of user’s behavior and use it to predict user’s interests. 
 Employed techniques:
-Collaborative Filtering Using k-Nearest Neighbors (**KNN**)
-Cosine similarity(for object similarity)
-Alternating Least Square (**ALS**)
-Matrix Factorization (unsupervised)
+Collaborative Filtering Using k-Nearest Neighbors (**KNN**) <br>
+Cosine similarity(for object similarity) <br>
+Alternating Least Square (**ALS**) <br>
+Matrix Factorization (unsupervised) <br>
 Clustering
 
 Prototype using subsample of data - start with Cellphone & Accessories before increasing the scope
