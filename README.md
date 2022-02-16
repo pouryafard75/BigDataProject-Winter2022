@@ -86,8 +86,7 @@ Clustering
 Prototype using subsample of data - start with Cellphone & Accessories before increasing the scope
 
 ### Evaluation: 
-Precision of the predictions:
+Precision of the predictions for the Masking Matrix
 
 Root-mean-square-error (RMSE)
 Mean Average Precision at K (MAP@K)
-Masking Matrix
