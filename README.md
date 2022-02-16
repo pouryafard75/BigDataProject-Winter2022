@@ -45,11 +45,11 @@ salesRank,<br>
 brand,<br>
 category
 
-### Methods: 
-User-user collaborative filtering or Item-item filtering <br>
-Item-item is more straightforward while user-user can help us create a user profile across multiple categories.
+### Model: 
+User-user collaborative filtering and Item-item filtering <br>
+Item-item is more straightforward while User-user can help us create a user profile across multiple categories.
 
-Frameworks and Libraries to use:
+### Frameworks and Libraries to use:
 
 [Spark](https://spark.apache.org/docs/latest/api/python/)
 
@@ -63,14 +63,14 @@ Frameworks and Libraries to use:
 We'll build a Utility Matrix by crossreferencing the two datasets described above to link reviews to their corresponding items.<br>
 We'll then extrapolate unknown ratings from the known ones focusing on users' likes over what users don't like.<br>
 In other words we'll employ a Collaborative Filtering system to find users with similar tastes and ratings and use this information to recomend them new items to purchase based on their review history, taking into account the global average of all ratings in the dataset and rating deviation of users and items.<br> 
+Prototype using a subsample of data - start with Cellphone & Accessories before increasing the scope.<br> 
 
-Employed techniques include but are not limited to: <br>
+### Employed algorithms (include but are not limited to): <br>
 Collaborative Filtering Using k-Nearest Neighbors (**KNN**) <br>
 Cosine similarity(for object similarity) <br>
 Alternating Least Square (**ALS**) <br>
 Matrix Factorization (unsupervised) <br>
 
-Prototype using a subsample of data - start with Cellphone & Accessories before increasing the scope.
 
 | UserID<br/>ProductId |  1  |  2  |  3  | ... |
 |----------------------|:---:|:---:|:---:|:---:|
