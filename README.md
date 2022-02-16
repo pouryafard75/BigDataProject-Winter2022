@@ -56,12 +56,6 @@ Model: We chose Collaborative Filtering as it works for any kind of item and rel
 In other words, we have the following sparse matrix:
 ![](../../../../var/folders/x7/4qrm_3_j3n766by195zf2qzw0000gn/T/TemporaryItems/NSIRD_screencaptureui_5U06e4/Screen Shot 2022-02-15 at 8.45.02 PM.png)
 
-| Name                  | StudentID |  
-|-----------------------|:---------:|
-| Pouria Alikhanifard   | 40220990  | 
-| Mohammod Suhel Firdus | 40163582  |  
-| Gwladys Djuikom       | 40239239  |
-| Dmytro Chychkov       | 40034351  | 
 ### Methods: 
 User-user or item-item <br>
 Item-item is more straightforward while user-user can help us create a user profile across multiple categories
