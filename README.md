@@ -49,16 +49,6 @@ category
 User-user collaborative filtering and Item-item filtering <br>
 Item-item is more straightforward while User-user can help us create a user profile across multiple categories.
 
-### Frameworks and Libraries to use:
-
-[Spark](https://spark.apache.org/docs/latest/api/python/)
-
-[Recmetrics library for MAP@K](https://github.com/statisticianinstilettos/recmetrics)
-
-[Matplotlib](https://matplotlib.org/) (for visualisation)
-
-[Pandas](https://pandas.pydata.org)/[Numpy](https://numpy.org/) (as well visualization)
-
 ### Approach:
 We'll build a Utility Matrix by crossreferencing the two datasets described above to link reviews to their corresponding items.<br>
 We'll then extrapolate unknown ratings from the known ones focusing on users' likes over what users don't like.<br>
@@ -96,3 +86,13 @@ To measure the performance of our recommendation methods we plan to use <b>Root-
 5) Whether we can identify user's changing interests as their shopping profile changes over time?<br>
 
 6) Whether the user similarity table will change if we restrict the dataset timeline?
+
+### Frameworks and Libraries to use:
+
+[Spark](https://spark.apache.org/docs/latest/api/python/)
+
+[Recmetrics library for MAP@K](https://github.com/statisticianinstilettos/recmetrics)
+
+[Matplotlib](https://matplotlib.org/) (for visualisation)
+
+[Pandas](https://pandas.pydata.org)/[Numpy](https://numpy.org/) (as well visualization)
