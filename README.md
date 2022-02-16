@@ -54,7 +54,16 @@ Model: We chose Collaborative Filtering as it works for any kind of item and rel
 <b> However the main focus of this research is on the <i> vote </i> in Product reviews. </b> 
 
 In other words, we have the following sparse matrix:
-![](../../../../var/folders/x7/4qrm_3_j3n766by195zf2qzw0000gn/T/TemporaryItems/NSIRD_screencaptureui_5U06e4/Screen Shot 2022-02-15 at 8.45.02 PM.png)
+
+| UserID<br/>ProductId |  1  |  2  |  3  | ... |
+|----------------------|:---:|:---:|:---:|:---:|
+| 1                    | 4.5 |  3  | NaN | ... |
+| 2                    | 1.5 |  NaN  |  3  | ... |
+| 3                    |  NaN  |  2  |  5  | ... |
+| 4                    |  1  |  2  | NaN | ... |
+| ...                  | ... | ... | ... | ... |
+
+and we aim to predict the NaN values in order to build the recommendation system.
 
 ### Methods: 
 User-user or item-item <br>
