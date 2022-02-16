@@ -15,7 +15,7 @@ The Amazon Item Recommendation System collects preferences and taste information
 to find users with similar interests. It then uses this information to make automatic item predictions tailored to the user's taste.
 
 ### Dataset of interest: 
-Amazon Review Data (2018) available [here](https://nijianmo.github.io/amazon/index.html).
+Amazon Review Data (2018) which is available [here](https://nijianmo.github.io/amazon/index.html).
 
 ### Dataset description:
 The dataset contains over 230 million reviews across all item categories 
@@ -67,7 +67,8 @@ Item-item is more straightforward while user-user can help us create a user prof
 Frameworks and Libraries to use:
 
 [Spark](https://spark.apache.org/docs/latest/api/python/)
-Recmetrics library for MAP@K
+
+[Recmetrics library for MAP@K](https://github.com/statisticianinstilettos/recmetrics)
 
 [Matplotlib](https://matplotlib.org/) (for visualisation)
 
@@ -87,6 +88,6 @@ Prototype using subsample of data - start with Cellphone & Accessories before in
 Evaluation: 
 Precision of the predictions:
 
-Root-mean-square-error (RMSE) 
-Mean Average Precision at K (MAP@K) //standard
+Root-mean-square-error (RMSE)
+Mean Average Precision at K (MAP@K)
 Masking Matrix
