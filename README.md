@@ -14,10 +14,10 @@
 The Amazon Item Recommendation System collects preferences and taste information from Amazon shoppers and employs different collaborative filtering algorithms 
 to find users with similar interests. It then uses this information to make automatic item predictions tailored to the user's taste.
 
-###Dataset of interest: 
+### Dataset of interest: 
 Amazon Review Data (2018) available [here](https://nijianmo.github.io/amazon/index.html).
 
-###Dataset description:
+### Dataset description:
 The dataset contains over 230 million reviews across all item categories 
 It consists of two subsets for each product category: 
 (1) Product reviews - includes ratings, text and helpfulness votes
