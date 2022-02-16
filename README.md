@@ -56,7 +56,7 @@ We'll then extrapolate unknown ratings from the known ones focusing on users' li
 In other words we'll employ a Collaborative Filtering system to find users with similar tastes and ratings and use this information to recommend them new items to purchase based on their review history, taking into account the global average of all ratings in the dataset and rating deviation of users and items.<br> 
 Prototype using a subsample of data - start with Cellphone & Accessories before increasing the scope.<br> 
 
-Reviews matrix looks as following:
+Reviews matrix looks as the following:
 
 | UserID<br/>ProductId |  1  |  2  |  3  | ... |
 |----------------------|:---:|:---:|:---:|:---:|
