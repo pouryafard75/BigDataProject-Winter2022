@@ -83,11 +83,9 @@ To measure the performance of our recommendation methods we plan to use <b>Root-
 
 3) Which value for K works better in terms of prediction for KNN?<br>
 
-4) Which hyper-params(maxIter,rank,regParam) for ALS algorithms work better on this dataset?<br>
+4) Whether we can identify user's changing interests as their shopping profile changes over time?<br>
 
-5) Whether we can identify user's changing interests as their shopping profile changes over time?<br>
-
-6) Whether the user similarity table will change if we restrict the dataset timeline?
+5) Whether the user similarity table will change if we restrict the dataset timeline?
 
 ### Frameworks and Libraries to use:
 
