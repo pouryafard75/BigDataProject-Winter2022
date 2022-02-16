@@ -33,23 +33,18 @@ overall - rating of the product <br>
 unixReviewTime - time of the review (unix time) <br>
 reviewTime - time of the review (raw) <br>
 
-(2) Product metadata which contains: <br>
+(2) Product metadata which contains additional information about each product including
 
-asin - ID of the product, e.g. 0000031852
-title - name of the product
-feature - bullet-point format features of the product
-description - description of the product
-price - price in US dollars (at time of crawl)
-imageURL - url of the product image
-imageURL - url of the high resolution product image
-related - related products (also bought, also viewed, bought together, buy after viewing)
-salesRank - sales rank information
-brand - brand name
-categories - list of categories the product belongs to
-tech1 - the first technical detail table of the product
-tech2 - the second technical detail table of the product
-similar - similar product table
-Model: We chose Collaborative Filtering as it works for any kind of item and relies only on 	the utility matrix. 
+asin( ID of the product e.g. 0000031852), 
+title,
+feature,
+description,
+price,
+imageURL,
+related products,
+salesRank,
+brand,
+categories, ...
 
 <b> However the main focus of this research is on the <i> vote </i> in Product reviews. </b> 
 
