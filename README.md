@@ -89,7 +89,9 @@ To measure the performance of our recommendation methods we plan to use <b>Root-
 
 ### Frameworks and Libraries to use:
 
-[Spark](https://spark.apache.org/docs/latest/api/python/)
+[Spark](https://spark.apache.org/docs/latest/)
+
+[PySpark](https://spark.apache.org/docs/latest/api/python/)
 
 [Recmetrics library for MAP@K](https://github.com/statisticianinstilettos/recmetrics)
 
