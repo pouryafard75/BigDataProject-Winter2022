@@ -21,7 +21,7 @@ Amazon Review Data (2018) which is available [here](https://nijianmo.github.io/a
 The dataset contains over 230 million reviews across all item categories 
 It consists of two subsets for each product category: <br> 
 
-(1) Product reviews(includes ratings, text and helpfulness votes) which contains: <br>
+(1) Product reviews: <br>
 
 reviewerID - ID of the reviewer, e.g. A2SUAM1J3GNN3B <br>
 asin - ID of the product, e.g. 0000013714 <br>
@@ -33,36 +33,22 @@ overall - rating of the product <br>
 unixReviewTime - time of the review (unix time) <br>
 reviewTime - time of the review (raw) <br>
 
-(2) Product metadata which contains additional information about each product including
+(2) Product metadata:
 
-asin( ID of the product e.g. 0000031852), 
-title,
-feature,
-description,
-price,
-imageURL,
-related products,
-salesRank,
-brand,
-categories, ...
-
-<b> However the main focus of this research is on the <i> vote </i> in Product reviews. </b> 
-
-In other words, we have the following sparse matrix:
-
-| UserID<br/>ProductId |  1  |  2  |  3  | ... |
-|----------------------|:---:|:---:|:---:|:---:|
-| 1                    | 4.5 |  3  | NaN | ... |
-| 2                    | 1.5 |  NaN  |  3  | ... |
-| 3                    |  NaN  |  2  |  5  | ... |
-| 4                    |  1  |  2  | NaN | ... |
-| ...                  | ... | ... | ... | ... |
-
-and we aim to predict the <i>NaN</i> values in order to build the recommendation system.
+asin( ID of the product e.g. 0000031852), <br>
+title,<br>
+feature,<br>
+description,<br>
+price,<br>
+imageURL,<br>
+related products,<br>
+salesRank,<br>
+brand,<br>
+category
 
 ### Methods: 
-User-user or item-item <br>
-Item-item is more straightforward while user-user can help us create a user profile across multiple categories
+User-user collaborative filtering or Item-item filtering <br>
+Item-item is more straightforward while user-user can help us create a user profile across multiple categories.
 
 Frameworks and Libraries to use:
 
@@ -75,18 +61,32 @@ Frameworks and Libraries to use:
 [Pandas](https://pandas.pydata.org)/[Numpy](https://numpy.org/) (as well visualization)
 
 ### Approach:
-We employ a Collaborative Filtering system to build a model of user’s behavior and use it to predict user’s interests. 
-Employed techniques: <br>
+We'll build a Utility Matrix by crossreferencing the two datasets described above to link reviews to their corresponding items.<br>
+We'll then extrapolate unknown ratings from the known ones focusing on users' likes over what users don't like.<br>
+In other words we'll employ a Collaborative Filtering system to find users with similar tastes and ratings and use this information to recomend them new items to purchase based on their review history, taking into account the global average of all ratings in the dataset and rating deviation of users and items.<br> 
+
+Employed techniques include but are not limited to: <br>
 Collaborative Filtering Using k-Nearest Neighbors (**KNN**) <br>
 Cosine similarity(for object similarity) <br>
 Alternating Least Square (**ALS**) <br>
 Matrix Factorization (unsupervised) <br>
-Clustering
 
-Prototype using subsample of data - start with Cellphone & Accessories before increasing the scope
+Prototype using a subsample of data - start with Cellphone & Accessories before increasing the scope.
+
+| UserID<br/>ProductId |  1  |  2  |  3  | ... |
+|----------------------|:---:|:---:|:---:|:---:|
+| 1                    | 4.5 |  3  | NaN | ... |
+| 2                    | 1.5 |  NaN  |  3  | ... |
+| 3                    |  NaN  |  2  |  5  | ... |
+| 4                    |  1  |  2  | NaN | ... |
+| ...                  | ... | ... | ... | ... |
 
 ### Evaluation: 
-Precision of the predictions for the Masking Matrix
+To measure the performance of our recommendation methods we plan to use <b>Root-mean-square-error (RMSE)</b> and <b>Mean Average Precision at K (MAP@K)</b> techniques applied to a masked portion of the matrix.
 
-Root-mean-square-error (RMSE) <br>
-Mean Average Precision at K (MAP@K)
+### Research questions: 
+
+
+ 
+
+
