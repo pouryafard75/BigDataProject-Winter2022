@@ -50,9 +50,9 @@ User-user collaborative filtering and Item-item filtering <br>
 Item-item is more straightforward while User-user can help us create a user profile across multiple categories.
 
 ### Approach:
-We'll build a Utility Matrix by crossreferencing the two datasets described above to link reviews to their corresponding items.<br>
+We'll build a Utility Matrix by cross-referencing the two datasets described above to link reviews to their corresponding items.<br>
 We'll then extrapolate unknown ratings from the known ones focusing on users' likes over what users don't like.<br>
-In other words we'll employ a Collaborative Filtering system to find users with similar tastes and ratings and use this information to recomend them new items to purchase based on their review history, taking into account the global average of all ratings in the dataset and rating deviation of users and items.<br> 
+In other words we'll employ a Collaborative Filtering system to find users with similar tastes and ratings and use this information to recommend them new items to purchase based on their review history, taking into account the global average of all ratings in the dataset and rating deviation of users and items.<br> 
 Prototype using a subsample of data - start with Cellphone & Accessories before increasing the scope.<br> 
 
 ### Employed algorithms (include but are not limited to): <br>
@@ -75,13 +75,13 @@ To measure the performance of our recommendation methods we plan to use <b>Root-
 
 ### Research questions: 
 
-1) Can we build a recommandation system with collbarotive filtering based purely on the amazon reviews?<br>
+1) Can we build a recommendation system with collaborative filtering based purely on the amazon reviews?<br>
 
 2) Between ALS and KNN which will produce more accurate results?<br>
 
 3) Which value for K works better in terms of prediction?<br>
 
-4) Which hyper-params(maxIter,rank,regParam) for ALS algorithms works better on this dataset?<br>
+4) Which hyper-params(maxIter,rank,regParam) for ALS algorithms work better on this dataset?<br>
 
 5) Whether we can identify user's changing interests as their shopping profile changes over time?<br>
 
@@ -93,6 +93,6 @@ To measure the performance of our recommendation methods we plan to use <b>Root-
 
 [Recmetrics library for MAP@K](https://github.com/statisticianinstilettos/recmetrics)
 
-[Matplotlib](https://matplotlib.org/) (for visualisation)
+[Matplotlib](https://matplotlib.org/) (for visualization)
 
 [Pandas](https://pandas.pydata.org)/[Numpy](https://numpy.org/) (as well visualization)
