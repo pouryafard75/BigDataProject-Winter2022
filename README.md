@@ -95,6 +95,8 @@ To measure the performance of our recommendation methods we plan to use <b>Root-
 
 [Recmetrics library for MAP@K](https://github.com/statisticianinstilettos/recmetrics)
 
-[Matplotlib](https://matplotlib.org/) (for visualization)
+Visualization tools:<br>
 
-[Pandas](https://pandas.pydata.org)/[Numpy](https://numpy.org/) (as well visualization)
+[Matplotlib](https://matplotlib.org/) 
+
+[Pandas](https://pandas.pydata.org)/[Numpy](https://numpy.org/) 
