@@ -51,6 +51,11 @@ Item-item is more straightforward while User-user can help us create a user prof
 
 ### Approach:
 
+We'll build a Utility Matrix by cross-referencing the two datasets described above to link reviews to their corresponding items.<br>
+We'll then extrapolate unknown ratings from the known ones focusing on users' likes over what users don't like by comparing users tastes with the help of a Similarity Matrix using Jaccard and Cosine similarity metrics for reference.<br>
+In other words we'll employ a Collaborative Filtering system to find users with similar tastes and ratings and use this information to recommend them new items to purchase based on their review history, taking into account the global average of all ratings in the dataset and rating deviation of users and items.<br> 
+Prototype using a subsample of data - start with Cellphone & Accessories before increasing the scope.<br> 
+
 | UserID<br/>ProductId |  1  |  2  |  3  | ... |
 |----------------------|:---:|:---:|:---:|:---:|
 | 1                    | 4.5 |  3  | NaN | ... |
@@ -61,10 +66,6 @@ Item-item is more straightforward while User-user can help us create a user prof
 
 <b> We aim to predict the NaN values which coressponds to missing reviews and build our recommendation system based on that. </b>
 
-We'll build a Utility Matrix by cross-referencing the two datasets described above to link reviews to their corresponding items.<br>
-We'll then extrapolate unknown ratings from the known ones focusing on users' likes over what users don't like by comparing users tastes with the help of a Similarity Matrix using Jaccard and Cosine similarity metrics for reference.<br>
-In other words we'll employ a Collaborative Filtering system to find users with similar tastes and ratings and use this information to recommend them new items to purchase based on their review history, taking into account the global average of all ratings in the dataset and rating deviation of users and items.<br> 
-Prototype using a subsample of data - start with Cellphone & Accessories before increasing the scope.<br> 
 
 ### Employed algorithms (include but are not limited to): <br>
 Collaborative Filtering Using k-Nearest Neighbors (**KNN**) (supervised)<br>
