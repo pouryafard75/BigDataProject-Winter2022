@@ -21,7 +21,8 @@ Amazon Review Data (2018) available [here](https://nijianmo.github.io/amazon/ind
 The dataset contains over 230 million reviews across all item categories 
 It consists of two subsets for each product category: <br> 
 
-(1) Product reviews(includes ratings, text and helpfulness votes) <br>
+(1) Product reviews(includes ratings, text and helpfulness votes) which contains: <br>
+
 reviewerID - ID of the reviewer, e.g. A2SUAM1J3GNN3B <br>
 asin - ID of the product, e.g. 0000013714 <br>
 reviewerName - name of the reviewer <br>
@@ -32,7 +33,7 @@ overall - rating of the product <br>
 unixReviewTime - time of the review (unix time) <br>
 reviewTime - time of the review (raw) <br>
 
-(2) Product metadata - includes ASIN, descriptions, category information, price,					 brand, and image features
+(2) Product metadata which contains: <br>
 
 asin - ID of the product, e.g. 0000031852
 title - name of the product
